@@ -1,0 +1,18 @@
+##############################################################
+memduino64_8MHz.name= ATmega64 / Int.8MHz
+memduino64_8MHz.upload.maximum_size=65536
+memduino64_8MHz.upload.tool=arduino:avrdude
+memduino64_8MHz.bootloader.tool=avrdude
+memduino64_8MHz.bootloader.low_fuses=0xD4
+memduino64_8MHz.bootloader.high_fuses=0xD8
+memduino64_8MHz.bootloader.extended_fuses=0xFF
+memduino64_8MHz.bootloader.path=dummy
+memduino64_8MHz.bootloader.file=dummy.hex
+memduino64_8MHz.bootloader.unlock_bits=0x3F
+memduino64_8MHz.bootloader.lock_bits=0x3F
+memduino64_8MHz.build.mcu=atmega64
+memduino64_8MHz.build.f_cpu=8000000L
+memduino64_8MHz.build.core=arduino
+memduino64_8MHz.build.variant=atmega64
+memduino64_8MHz.build.board=MEMDUINO64_8MHZ
+

@@ -1,0 +1,20 @@
+#######################################
+# Syntax Coloring Map For skLPSxxI2C
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+skLPSxxx	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+PressureInit	KEYWORD2
+PressureReceive	KEYWORD2
+PressureSend	KEYWORD2
+PressureRead	KEYWORD2
+PressurePD	KEYWORD2
+AltitudeCalc	KEYWORD2
+

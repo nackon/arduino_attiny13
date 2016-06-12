@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For Wire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Wire_lcd_cmd	KEYWORD2
+Wire_lcd_data	KEYWORD2
+Wire_lcd_nputs	KEYWORD2
+I2CLCD_init	KEYWORD2
+I2CLCD_clear	KEYWORD2
+I2CLCD_home	KEYWORD2
+I2CLCD_setCursor	KEYWORD2
+I2CLCD_write	KEYWORD2
+I2CLCD_print	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+akiI2Clcd	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
