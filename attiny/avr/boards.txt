@@ -30,6 +30,7 @@ attiny13-8.name=ATtiny13 (internal 9.6 MHz clock)
 attiny13-8.bootloader.tool=avrdude
 attiny13-8.bootloader.low_fuses=0x7a
 attiny13-8.bootloader.high_fuses=0xff
+attiny13-8.bootloader.extended_fuses=0xff
 attiny13-8.upload.maximum_size=1024
 attiny13-8.upload.tool=arduino:avrdude
 attiny13-8.bootloader.path=dummy
@@ -39,6 +40,8 @@ attiny13-8.build.f_cpu=9600000L
 attiny13-8.build.core=core13
 attiny13-8.build.variant=tiny13
 attiny13-8.build.board=AVR_ATTINY13
+attiny13-8.bootloader.unlock_bits=0xFF
+attiny13-8.bootloader.lock_bits=0xFF
 
 #attiny45.name=ATtiny45 (internal 1 MHz clock)
 #attiny45.bootloader.low_fuses=0x62
